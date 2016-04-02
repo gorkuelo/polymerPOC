@@ -1,0 +1,37 @@
+POLYMER: Es una librería que ayuda a usar web components.
+
+
+WEB COMPONENTS:
+
+Template -> native client-side templating
+Shadow DOM -> scoping, composition
+Custom elements -> define new HTML/DOM
+HTML imports -> loading web components
+
+- Los custom elements tienen que tener un - en su nombre, para distinguirse del resto de tags de html5.
+
+- Hay que crear un prototype en JS que dará comportamiento al elemento registrado.
+
+- Con el atributo is podemos extender un tag de html a nuestro custom element.
+<button is="sngular-button"></button>
+
+Polymer:
+en JS se crea un objeto 
+Polymer({
+	is:
+	properties:
+	ready:
+	created:
+	attached:
+	dettached:
+	etc... como funciones personalizadas.
+})
+
+
+
+UTILS:
+Con $0 en la consola de chrome después de inspeccionar un elemento le capturamos.
+
+
+bower init
+bower install --save Polymer/polymer

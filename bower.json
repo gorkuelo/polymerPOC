@@ -1,0 +1,22 @@
+{
+  "name": "polymerPOC",
+  "authors": [
+    "Gorkuelo <gorkuelo@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "index.html",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#~1.4.0",
+    "iron-ajax": "PolymerElements/iron-ajax#~1.2.0"
+  }
+}
